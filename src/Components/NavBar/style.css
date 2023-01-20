@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    font-family: 'Righteous', cursive;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.nav-container {
+    display:  flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 80px;
+}
+.logo {
+    width: 130px;
+    height: 125px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 40px;
+
+}
+nav ul li {
+    padding-right: 20px;
+}
+
+.active {
+    color: red;
+}
+
+
+a {
+    text-decoration: none;
+}
+
